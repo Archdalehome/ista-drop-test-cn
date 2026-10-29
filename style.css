@@ -555,6 +555,22 @@ img {
     margin: 0;
 }
 
+.footer-note {
+    margin-top: 6px;
+    font-size: 13px;
+    color: var(--muted);
+}
+
+.footer-note a {
+    color: #5a6b7b;
+    text-decoration: underline;
+    text-underline-offset: 2px;
+}
+
+.footer-note a:hover {
+    color: var(--ink);
+}
+
 /* =========================================================
    响应式：手机 375px 也不横向滚动
    ========================================================= */
