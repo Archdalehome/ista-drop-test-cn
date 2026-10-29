@@ -56,7 +56,10 @@ const radios = {
 };
 
 const form = node('calc-form');
-form.querySelector = function () {
+form.querySelector = function (sel) {
+    // 支持 input[name="shape"][value="ELONGATED"] 这种带值的查询
+    const m = /value="([^"]+)"/.exec(sel || '');
+    if (m) return radios[m[1]] || null;
     return radios.STANDARD.checked ? radios.STANDARD : radios.ELONGATED;
 };
 
@@ -95,11 +98,11 @@ setTimeout(() => {
     ok(verdict.innerHTML.includes('78.7 in') || verdict.innerHTML.includes('78.74 in'),
         '判定条显示周长 78.7 in', verdict.innerHTML.slice(0, 120));
     ok(verdict.innerHTML.includes('标准箱型'), '判定条显示箱型');
-    ok(verdict.innerHTML.includes('毛重 < 32 kg'), '判定条显示重量段');
+    ok(verdict.innerHTML.includes('32 kg'), '判定条显示重量段', verdict.innerHTML.slice(0, 160));
     const rows = (tbody.innerHTML.match(/<tr>/g) || []).length;
     ok(rows === expectedGroup.rows.length, '表格行数 = 该组步骤数（' + expectedGroup.rows.length + '）', rows);
     ok(tbody.innerHTML.includes('棱 3-4'), '冲击部位译成中文（棱 3-4）');
-    ok(tbody.innerHTML.includes('EDGE 3-4'), '副行保留英文原文（EDGE 3-4）');
+    ok(tbody.innerHTML.includes('Edge 3-4'), '副行保留英文原文（原文逐字：Edge 3-4）');
     ok(node('table-title').textContent.includes(String(expectedGroup.rows.length)),
         '标题显示步骤数', node('table-title').textContent);
     ok(node('form-error').hidden === true, '合法输入不显示错误');
@@ -127,3 +130,4 @@ setTimeout(() => {
     console.log('\nFAIL 合计: ' + fails);
     process.exit(fails === 0 ? 0 : 1);
 }, 50);
+

@@ -13,59 +13,64 @@
     var GIRTH_LIMIT_IN = 165; // 正好 165 in 归入「大于 165 in」一侧
 
     var TYPE_ZH = {
-        'Drop': ['跌落', 'Drop'],
-        'Hazard Drop': ['危险跌落', 'Hazard Drop'],
-        'Impact Test': ['冲击测试', 'Impact Test'],
-        'Rotational FLAT Drop': ['旋转面跌落', 'Rotational FLAT Drop'],
-        'Roational FLAT Drop': ['旋转面跌落', 'Roational FLAT Drop（原文拼写如此）'],
-        'Rotational EDGE Drop': ['旋转棱跌落', 'Rotational EDGE Drop'],
-        'Rotational Edge Drop Test': ['旋转棱跌落测试', 'Rotational Edge Drop Test'],
-        'Rotational CORNER Drop': ['旋转角跌落', 'Rotational CORNER Drop'],
-        'Full Rotational Test': ['完整旋转测试', 'Full Rotational Test'],
-        'Floor Hazard Drop': ['地面危险跌落', 'Floor Hazard Drop'],
-        'Bridge Hazard Drop': ['桥式危险跌落', 'Bridge Hazard Drop']
+        'Drop': '跌落',
+        'Hazard Drop': '危险跌落',
+        'Impact Test': '冲击测试',
+        'Rotational FLAT Drop': '旋转面跌落',
+        'Roational FLAT Drop': '旋转面跌落（原文拼写如此）',
+        'Rotational EDGE Drop': '旋转棱跌落',
+        'Rotational Edge Drop Test': '旋转棱跌落测试',
+        'Rotational CORNER Drop': '旋转角跌落',
+        'Full Rotational Test': '完整旋转测试',
+        'Floor Hazard Drop': '地面危险跌落',
+        'Bridge Hazard Drop': '桥式危险跌落'
     };
 
     /* ---------- 纯逻辑 ---------- */
 
+    /**
+     * 返回 { zh, en }：zh 是中文显示，en 是该单元格的英文原文（逐字照抄，不做任何规范化）。
+     * 本身没有可译成分的（例如纯数值的高度），en 留空，避免重复显示。
+     */
     function translate(raw) {
         var s = String(raw == null ? '' : raw).trim();
-        if (s === '' || s === '--') return { zh: '—', en: '' };
+        if (s === '') return { zh: '—', en: '' };
+        if (s === '--') return { zh: '—', en: s };
 
-        if (TYPE_ZH[s]) return { zh: TYPE_ZH[s][0], en: TYPE_ZH[s][1] };
-
+        var zh = null;
         var m;
-        if ((m = s.match(/^Face (\d+)$/))) return { zh: '面 ' + m[1], en: 'FACE ' + m[1] };
-        if ((m = s.match(/^Edge ([\d-]+)$/))) return { zh: '棱 ' + m[1], en: 'EDGE ' + m[1] };
-        if ((m = s.match(/^Corner ([\d-]+)$/))) return { zh: '角 ' + m[1], en: 'CORNER ' + m[1] };
 
-        if (s === 'Most Risky Face') return { zh: '最危险面', en: 'Most Risky Face' };
-        if (s === 'Allow to fall to ground with this face as the base') {
-            return { zh: '以此面为底，自由跌落到地面', en: s };
+        if (TYPE_ZH[s]) {
+            zh = TYPE_ZH[s];
+        } else if ((m = s.match(/^Face (\d+)$/))) {
+            zh = '面 ' + m[1];
+        } else if ((m = s.match(/^Edge ([\d-]+)$/))) {
+            zh = '棱 ' + m[1];
+        } else if ((m = s.match(/^Corner ([\d-]+)$/))) {
+            zh = '角 ' + m[1];
+        } else if (s === 'Most Risky Face') {
+            zh = '最危险面';
+        } else if (s === 'Allow to fall to ground with this face as the base') {
+            zh = '以此面为底，自由跌落到地面';
+        } else if ((m = s.match(/^Place on\s*:\s*Face (\d+)$/))) {
+            zh = '置于：面 ' + m[1];
+        } else if ((m = s.match(/^Impact\s*:\s*Face (\d+)$/))) {
+            zh = '冲击：面 ' + m[1];
+        } else if ((m = s.match(/^Impact\s*:\s*Edge ([\d-]+)$/))) {
+            zh = '冲击：棱 ' + m[1];
+        } else if ((m = s.match(/^HAZARD:\s*Face (\d+) on "Hazard Block"$/))) {
+            zh = '危险跌落：面 ' + m[1] + ' 落在危险障碍块上';
+        } else if (/^Drop\s+"\s*Hazard Box\s*"\s*from/.test(s)) {
+            zh = '将危险箱跌落到指定面（高度见左）';
+        } else if (/^Rest on 2 supports/.test(s)) {
+            zh = '架在两个支撑上，将危险箱跌落到指定面';
         }
-        if ((m = s.match(/^Place on\s*:\s*Face (\d+)$/))) {
-            return { zh: '置于：面 ' + m[1], en: 'Place on: FACE ' + m[1] };
+
+        if (zh === null) {
+            // 高度这类纯数值，原样显示，不重复加英文副行
+            return { zh: s, en: '' };
         }
-        if ((m = s.match(/^Impact\s*:\s*Face (\d+)$/))) {
-            return { zh: '冲击：面 ' + m[1], en: 'Impact: FACE ' + m[1] };
-        }
-        if ((m = s.match(/^Impact\s*:\s*Edge ([\d-]+)$/))) {
-            return { zh: '冲击：棱 ' + m[1], en: 'Impact: EDGE ' + m[1] };
-        }
-        if ((m = s.match(/^HAZARD:\s*Face (\d+) on "Hazard Block"$/))) {
-            return {
-                zh: '危险跌落：面 ' + m[1] + ' 落在危险障碍块上',
-                en: 'HAZARD: FACE ' + m[1] + ' on "Hazard Block"'
-            };
-        }
-        if (/^Drop\s+"\s*Hazard Box\s*"\s*from/.test(s)) {
-            return { zh: '将危险箱跌落到指定面（高度见左）', en: s };
-        }
-        if (/^Rest on 2 supports/.test(s)) {
-            return { zh: '架在两个支撑上，将危险箱跌落到指定面', en: s };
-        }
-        // 高度这类纯数值，原样显示
-        return { zh: s, en: '' };
+        return { zh: zh, en: s };
     }
 
     function girthMm(l, w, h) {
@@ -121,25 +126,33 @@
     var state = { data: null, groups: {} };
     var els = {};
 
+    function esc(s) {
+        return String(s)
+            .replace(/&/g, '&amp;')
+            .replace(/</g, '&lt;')
+            .replace(/>/g, '&gt;')
+            .replace(/"/g, '&quot;');
+    }
+
     function chip(label, value, sub, tone) {
         return '<div class="verdict-item' + (tone ? ' verdict-item--' + tone : '') + '">' +
-            '<span class="verdict-label">' + label + '</span>' +
-            '<strong class="verdict-value">' + value + '</strong>' +
-            (sub ? '<span class="verdict-sub">' + sub + '</span>' : '') +
+            '<span class="verdict-label">' + esc(label) + '</span>' +
+            '<strong class="verdict-value">' + esc(value) + '</strong>' +
+            (sub ? '<span class="verdict-sub">' + esc(sub) + '</span>' : '') +
             '</div>';
     }
 
     function renderVerdict(info, group) {
         var shapeZh = info.shape === 'STANDARD' ? '标准箱型' : '细长 / 扁平箱型';
         var shapeEn = info.shape === 'STANDARD' ? 'STANDARD' : 'ELONGATED / FLAT';
-        var sideZh = info.side === 'gt165' ? '周长 ≥ 165 in' : '周长 < 165 in';
+        var sideZh = info.side === 'gt165' ? '周长 165 in 及以上' : '周长小于 165 in';
 
         els.verdict.innerHTML =
             chip('箱体周长 Girth', fdin(info.girthIn) + ' in',
                 fdin(info.girthMm) + ' mm · ' + sideZh) +
             chip('箱型 Carton Type', shapeZh, shapeEn) +
-            chip('重量段 Gross Weight', state.data.weights[group.weightKey].display,
-                '毛重 ' + fdin(info.weightKg) + ' kg') +
+            chip('重量段 Gross Weight', state.data.weights[group.weightKey].label,
+                '输入毛重 ' + fdin(info.weightKg) + ' kg') +
             chip('测试步骤数', group.rows.length + ' 步', '见下表', 'accent');
     }
 
