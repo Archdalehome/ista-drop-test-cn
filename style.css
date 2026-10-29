@@ -64,6 +64,22 @@ img {
     flex-wrap: wrap;
 }
 
+.brand-lockup {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.brand-logo {
+    display: block;
+    width: 42px;
+    height: 42px;
+    padding: 5px;
+    background: #fff;
+    border-radius: 10px;
+    flex-shrink: 0;
+}
+
 .brand {
     margin: 0;
     font-size: 20px;
@@ -665,6 +681,23 @@ img {
     .rules-table th,
     .rules-table td {
         padding: 8px;
+    }
+}
+
+/* ---------- 手机上的品牌区 ---------- */
+@media (max-width: 720px) {
+    .brand {
+        font-size: 17px;
+    }
+
+    .brand-sub {
+        font-size: 12px;
+    }
+
+    .brand-logo {
+        width: 38px;
+        height: 38px;
+        padding: 4px;
     }
 }
 
