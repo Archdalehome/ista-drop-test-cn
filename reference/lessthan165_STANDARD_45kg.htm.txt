@@ -1,0 +1,142 @@
+<style type="text/css">
+<!--
+.style1 {
+	color: #FF0000;
+	font-weight: bold;
+}
+-->
+</style>
+<p><a href="lessthan165.htm">Back</a>
+<table width="1086" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="4" class="xl64"><div align="center"><strong>Girth&lt;165&quot;/Carton:Standard/Gross Weight:32Kg to 45Kg </strong></div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="135" class="xl64"><div align="center">Step # </div></td>
+    <td width="223" class="xl64"><div align="center">Type </div></td>
+    <td width="355" class="xl64"><div align="center">Drop Height </div></td>
+    <td width="363" class="xl64"><div align="center">Impact Area </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">1 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+        (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Edge 3-4</div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">2 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center">330 mm. <br>
+        (13 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Edge 3-6 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">3 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Edge 4-6 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">4 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Corner 3-4-6 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">5 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Corner 2-3-5 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">6 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Edge 2-3 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">7 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Edge 1-2 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">8 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" bgcolor="#EEE2DF" class="xl65"><div align="center" class="style1">630 mm. <br>
+    (25 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Face 3 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">9 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Face 3 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">10 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Edge 3-4 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">11 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Edge 3-6 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">12 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Edge 1-5 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">13 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Corner 3-4-6 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">14 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td width="363" class="xl63"><div align="center">Corner 1-2-6 </div></td>
+  </tr>
+  <tr>
+    <td class="xl63" width="135"><div align="center">15 </div></td>
+    <td class="xl64" width="223"><div align="center">Drop </div></td>
+    <td class="xl65" width="355"><div align="center">330 mm. <br>
+    (13 in) </div></td>
+    <td class="xl63" width="363"><div align="center">Corner 1-4-5 </div></td>
+  </tr>
+  <tr bgcolor="#EEE2DF">
+    <td width="135" class="xl63"><div align="center">16 </div></td>
+    <td width="223" class="xl64"><div align="center">Drop </div></td>
+    <td width="355" class="xl65"><div align="center" class="style1">630 mm. <br>
+    (25 in) </div></td>
+    <td width="363" class="xl64"><div align="center">Most Risky Face </div></td>
+  </tr>
+  <tr>
+    <td width="135" class="xl63"><div align="center">17 </div></td>
+    <td width="223" class="xl64"><div align="center">Hazard Drop </div></td>
+    <td width="355" class="xl66"><div align="center">330 mm. <br>
+(13 in) </div></td>
+    <td width="363" class="xl64"><div align="center">HAZARD: Face 3 on &quot;Hazard Block&quot; </div></td>
+  </tr>
+  <tr>
+    <td colspan="4" class="xl63"><div align="center"><img src="images/hazard.png" width="1001" height="242"></div></td>
+  </tr>
+</table>

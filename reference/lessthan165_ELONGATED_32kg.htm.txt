@@ -1,0 +1,152 @@
+<style type="text/css">
+<!--
+.style2 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+<p><a href="lessthan165_ELONGATED.htm">Back</a>
+<table width="995" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="5" class="xl64 style2"><div align="center">Girth&lt;165&quot;/ Carton: ELONGATED/FLAT / Gross Weight&lt;32Kg </div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="73" class="xl64 style2"><div align="center">Step#</div></td>
+    <td width="137" class="xl64 style2"><div align="center">Type </div></td>
+    <td width="208" class="xl64 style2"><div align="center">Height</div></td>
+    <td width="147" class="xl64 style2"><div align="center">Impact Area</div></td>
+    <td width="428" class="xl64 style2"><div align="center">Diagram </div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">1 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 3-4 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">2 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 3-6 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">3 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 4-6 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">4 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Corner 3-4-6 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">5 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Corner 2-3-5 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">6 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 2-3 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">7 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 1-2 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">8 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl66 style2"><div align="center">940 mm 
+    (37 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 3 </div></td>
+    <td class="xl66" width="428"><div align="center"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center">9 </div></td>
+    <td width="137" class="xl64 style2"><div align="center">Drop </div></td>
+    <td width="208" class="xl65 style2"><div align="center">480 mm. 
+    (19 in) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 3 </div></td>
+    <td class="xl65" width="428"><div align="center"></div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" height="70" class="xl64"><p align="center" class="style2">10</p>    </td>
+    <td width="137" class="xl63 style2"><div align="center">Rotational Edge Drop Test</div></td>
+    <td width="208" class="xl63 style2"><div align="center">230 mm. (9 inches)</div></td>
+    <td width="147" class="xl63 style2"><div align="center">Impact: <br>
+    Edge 2-3 </div></td>
+    <td width="428" rowspan="3" class="xl63"><div align="center"><img src="images/Full%20Rotational%20Test.png" width="334" height="168"></div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" height="75" class="xl64 style2"><div align="center">11</div></td>
+    <td width="137" class="xl63 style2"><div align="center">Rotational Edge Drop Test</div></td>
+    <td width="208" bgcolor="#EDF5E0" class="xl63 style2"><div align="center">230 mm. (9 inches)</div></td>
+    <td width="147" class="xl63 style2"><div align="center">Impact : <br>
+    Edge 3-5 </div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" height="62" class="xl64 style2"><div align="center">12</div></td>
+    <td width="137" class="xl63 style2"><div align="center">Rotational Edge Drop Test</div></td>
+    <td width="208" class="xl63 style2"><div align="center">230 mm. (9 inches)</div></td>
+    <td width="147" class="xl63 style2"><div align="center">Impact : <br>
+    Edge 3-6 </div></td>
+  </tr>
+  <tr>
+    <td width="73" height="77" class="xl64 style2"><div align="center">13</div></td>
+    <td width="137" class="xl63 style2"><div align="center">Full Rotational Test</div></td>
+    <td width="208" class="xl68 style2"><div align="center">Allow to fall to ground with this face as the base </div></td>
+    <td width="147" class="xl63 style2"><div align="center">
+      <p>Place on :Face 5 </p>
+      </div></td>
+    <td width="428" rowspan="2" class="xl68"><div align="center"><img src="images/Full%20Rotational%20Test.gif" width="342" height="167"></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl64 style2"><div align="center">14</div></td>
+    <td width="137" class="xl63 style2"><div align="center">Full Rotational Test</div></td>
+    <td width="208" class="xl68 style2"><div align="center">Allow to fall to ground with this face as the base </div></td>
+    <td width="147" class="xl63 style2"><div align="center">Place on : Face 2 </div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" class="xl69 style2"><div align="center">15</div></td>
+    <td width="137" class="xl63 style2"><div align="center">Floor Hazard Drop</div></td>
+    <td width="208" class="xl68 style2"><div align="center">400 mm (16&quot;)</div></td>
+    <td width="147" class="xl68 style2"><div align="center"><span class="xl63 style2">Impact: 
+    Face 1</span></div></td>
+    <td width="428" class="xl68"><img src="images/Floor%20hazard%20drop.jpg" width="396" height="143"></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl69 style2"><div align="center">16</div></td>
+    <td width="137" class="xl63 style2"><div align="center">Bridge Hazard Drop</div></td>
+    <td width="208" class="xl63 style2"><div align="center">400 mm (16&quot;)</div></td>
+    <td width="147" class="xl63 style2"><div align="center">Impact : Face 3 </div></td>
+    <td class="xl63" width="428"><img src="images/Bridge%20hazard%20drop%20white.gif" width="428" height="160"></td>
+  </tr>
+</table>
+<table width="1004" bgcolor="#FFDCA8">
+  <tr>
+    <td><strong>1) Support block: <br>
+      </strong>90 to 100 mm(3.5 to 4.0 in) in heightand width and at least 200 mm (8 in) longerthan the shortest dimension of face 3.<strong><br>
+      2) Hzard Box:<br>
+      </strong>300 x300 x300 mm (12x12 x12 in) densewooden box with a total weight of 4.1 kg (9 lb)The box shall have least one bottom edgecovered by angle iron.
+    The box should be filled with a sand bag and voidfill to hold the bag in place.</td>
+  </tr>
+</table>
+<p>&nbsp;</p>

@@ -1,0 +1,1960 @@
+{
+  "generatedFrom": "ista-drop-test-cn 原始结果页（逐格机械抽取）",
+  "girthThresholdIn": 165,
+  "weights": {
+    "lt27": {
+      "label": "<27 kg",
+      "min": 0,
+      "max": 27,
+      "maxInclusive": false,
+      "display": "毛重 < 27 kg"
+    },
+    "lt32": {
+      "label": "<32 kg",
+      "min": 0,
+      "max": 32,
+      "maxInclusive": false,
+      "display": "毛重 < 32 kg"
+    },
+    "27to45": {
+      "label": "27–45 kg",
+      "min": 27,
+      "max": 45,
+      "maxInclusive": false,
+      "display": "27 kg ≤ 毛重 < 45 kg"
+    },
+    "32to45": {
+      "label": "32–45 kg",
+      "min": 32,
+      "max": 45,
+      "maxInclusive": false,
+      "display": "32 kg ≤ 毛重 < 45 kg"
+    },
+    "45to91": {
+      "label": "45–91 kg",
+      "min": 45,
+      "max": 91,
+      "maxInclusive": false,
+      "display": "45 kg ≤ 毛重 < 91 kg"
+    },
+    "gt45": {
+      "label": ">45 kg",
+      "min": 45,
+      "max": null,
+      "maxInclusive": false,
+      "display": "毛重 ≥ 45 kg"
+    },
+    "gt91": {
+      "label": ">91 kg",
+      "min": 91,
+      "max": null,
+      "maxInclusive": false,
+      "display": "毛重 ≥ 91 kg"
+    }
+  },
+  "groups": [
+    {
+      "id": "lt165_STANDARD_lt32",
+      "source": "lessthan165_STANDARD_32kg.htm",
+      "girth": "lt165",
+      "shape": "STANDARD",
+      "weightKey": "lt32",
+      "title": "Girth<165\"/Carton:Standard/Gross Weight<32Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 3-4",
+          "images": []
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 4-6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 3-4-6",
+          "images": []
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 2-3-5",
+          "images": []
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 2-3",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 1-2",
+          "images": []
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "940 mm (37 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 3-4",
+          "images": []
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 1-5",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 3-4-6",
+          "images": []
+        },
+        {
+          "step": "14",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 1-2-6",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 1-4-5",
+          "images": []
+        },
+        {
+          "step": "16",
+          "type": "Drop",
+          "height": "940 mm (37 in.)",
+          "impact": "Most Risky Face",
+          "images": []
+        },
+        {
+          "step": "17",
+          "type": "Hazard Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "HAZARD: Face 3 on \"Hazard Block\"",
+          "images": []
+        }
+      ],
+      "notes": [
+        {
+          "images": [
+            "images/hazard.png"
+          ],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "lt165_STANDARD_32to45",
+      "source": "lessthan165_STANDARD_45kg.htm",
+      "girth": "lt165",
+      "shape": "STANDARD",
+      "weightKey": "32to45",
+      "title": "Girth<165\"/Carton:Standard/Gross Weight:32Kg to 45Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 3-4",
+          "images": []
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 4-6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 3-4-6",
+          "images": []
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 2-3-5",
+          "images": []
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 2-3",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 1-2",
+          "images": []
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "630 mm. (25 in)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 3-4",
+          "images": []
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 1-5",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 3-4-6",
+          "images": []
+        },
+        {
+          "step": "14",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 1-2-6",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 1-4-5",
+          "images": []
+        },
+        {
+          "step": "16",
+          "type": "Drop",
+          "height": "630 mm. (25 in)",
+          "impact": "Most Risky Face",
+          "images": []
+        },
+        {
+          "step": "17",
+          "type": "Hazard Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "HAZARD: Face 3 on \"Hazard Block\"",
+          "images": []
+        }
+      ],
+      "notes": [
+        {
+          "images": [
+            "images/hazard.png"
+          ],
+          "text": ""
+        }
+      ]
+    },
+    {
+      "id": "lt165_STANDARD_gt45",
+      "source": "lessthan165_STANDARD_weighter.htm",
+      "girth": "lt165",
+      "shape": "STANDARD",
+      "weightKey": "gt45",
+      "title": "Girth<165\"/Carton:Standard/Gross Weight:>45Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/Rotational%20FLAT%20Drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Roational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "5",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "6",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/Rotational%20EDGE%20Drop.gif"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": []
+        },
+        {
+          "step": "11",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 5",
+          "images": []
+        },
+        {
+          "step": "12",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 5",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 5",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "16",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "17",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "18",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "lt165_ELONGATED_lt32",
+      "source": "lessthan165_ELONGATED_32kg.htm",
+      "girth": "lt165",
+      "shape": "ELONGATED",
+      "weightKey": "lt32",
+      "title": "Girth<165\"/ Carton: ELONGATED/FLAT / Gross Weight<32Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 3-4",
+          "images": []
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 4-6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 3-4-6",
+          "images": []
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Corner 2-3-5",
+          "images": []
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 2-3",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Edge 1-2",
+          "images": []
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "940 mm (37 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "480 mm. (19 in)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact: Edge 2-3",
+          "images": [
+            "images/Full%20Rotational%20Test.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact : Edge 3-5",
+          "images": []
+        },
+        {
+          "step": "12",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact : Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Full Rotational Test",
+          "height": "Allow to fall to ground with this face as the base",
+          "impact": "Place on :Face 5",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Full Rotational Test",
+          "height": "Allow to fall to ground with this face as the base",
+          "impact": "Place on : Face 2",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Floor Hazard Drop",
+          "height": "400 mm (16\")",
+          "impact": "Impact: Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "16",
+          "type": "Bridge Hazard Drop",
+          "height": "400 mm (16\")",
+          "impact": "Impact : Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "lt165_ELONGATED_32to45",
+      "source": "lessthan165_ELONGATED_45kg.htm",
+      "girth": "lt165",
+      "shape": "ELONGATED",
+      "weightKey": "32to45",
+      "title": "Girth<165\"/ Carton: ELONGATED/FLAT / Gross Weight: 32Kg-45Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 3-4",
+          "images": []
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 4-6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 3-4-6",
+          "images": []
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Corner 2-3-5",
+          "images": []
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 2-3",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Edge 1-2",
+          "images": []
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "635 mm (25 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "330 mm. (13 in)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact: Edge 2-3",
+          "images": [
+            "images/Full%20Rotational%20Test.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact : Edge 3-5",
+          "images": []
+        },
+        {
+          "step": "12",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact : Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Full Rotational Test",
+          "height": "Allow to fall to ground with this face as the base",
+          "impact": "Place on :Face 5",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Full Rotational Test",
+          "height": "Allow to fall to ground with this face as the base",
+          "impact": "Place on : Face 2",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Floor Hazard Drop",
+          "height": "400 mm (16\")",
+          "impact": "Impact: Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "16",
+          "type": "Bridge Hazard Drop",
+          "height": "400 mm (16\")",
+          "impact": "Impact : Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "lt165_ELONGATED_gt45",
+      "source": "lessthan165_ELONGATED_weighter.htm",
+      "girth": "lt165",
+      "shape": "ELONGATED",
+      "weightKey": "gt45",
+      "title": "Girth<165\"/ Carton: ELONGATED/FLAT / Gross Weight: >45Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/Rotational%20FLAT%20Drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Roational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "5",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "6",
+          "type": "Rotational FLAT Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/Rotational%20EDGE%20Drop%20green.gif"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": []
+        },
+        {
+          "step": "11",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 5",
+          "images": []
+        },
+        {
+          "step": "12",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 5",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 5",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "16",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "17",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 3",
+          "images": []
+        },
+        {
+          "step": "18",
+          "type": "Impact Test",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": []
+        },
+        {
+          "step": "19",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact: Edge 2-3",
+          "images": [
+            "images/Full%20Rotational%20Test.png"
+          ]
+        },
+        {
+          "step": "20",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact : Edge 3-5",
+          "images": []
+        },
+        {
+          "step": "21",
+          "type": "Rotational Edge Drop Test",
+          "height": "230 mm. (9 inches)",
+          "impact": "Impact : Edge 3-6",
+          "images": []
+        },
+        {
+          "step": "22",
+          "type": "Full Rotational Test",
+          "height": "Allow to fall to ground with this face as the base",
+          "impact": "Place on :Face 5",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "23",
+          "type": "Full Rotational Test",
+          "height": "Allow to fall to ground with this face as the base",
+          "impact": "Place on : Face 2",
+          "images": []
+        },
+        {
+          "step": "24",
+          "type": "Floor Hazard Drop",
+          "height": "400 mm (16\")",
+          "impact": "Impact: Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "25",
+          "type": "Bridge Hazard Drop",
+          "height": "400 mm (16\")",
+          "impact": "Impact : Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_STANDARD_lt27",
+      "source": "biggerthan165_STANDARD_27kg.htm",
+      "girth": "gt165",
+      "shape": "STANDARD",
+      "weightKey": "lt27",
+      "title": "Girth>165\"/ Carton: STANDARD / Gross Weight<27Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Corner 2-3-5",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Edge 3-4",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Edge 2-3",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Corner 3-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Edge 4-5",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Corner 1-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Edge 1-6",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "810mm (32 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_STANDARD_27to45",
+      "source": "biggerthan165_STANDARD_27-45kg.htm",
+      "girth": "gt165",
+      "shape": "STANDARD",
+      "weightKey": "27to45",
+      "title": "Girth>165\"/ Carton: STANDARD / Gross Weight:27Kg-45Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Corner 2-3-5",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Edge 3-4",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Edge 2-3",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Corner 3-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Edge 4-5",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Corner 1-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Edge 1-6",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_STANDARD_45to91",
+      "source": "biggerthan165_STANDARD_45-91kg.htm",
+      "girth": "gt165",
+      "shape": "STANDARD",
+      "weightKey": "45to91",
+      "title": "Girth>165\"/ Carton: STANDARD / Gross Weight:45Kg-91Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Corner 2-3-5",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Edge 3-4",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Edge 2-3",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Corner 3-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Edge 4-5",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Corner 1-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Edge 1-6",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "510mm (20 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_STANDARD_gt91",
+      "source": "biggerthan165_STANDARD_91kg-plus.htm",
+      "girth": "gt165",
+      "shape": "STANDARD",
+      "weightKey": "gt91",
+      "title": "Girth>165\"/ Carton: STANDARD / Gross Weight:45Kg-91Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/Rotational%20EDGE%20Drop%20wider.gif"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Rotational CORNER Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/Rotational%20CORNER%20Drop%20green.gif"
+          ]
+        },
+        {
+          "step": "3",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": [
+            "images/Rotational%20EDGE%20Drop%20wider.gif"
+          ]
+        },
+        {
+          "step": "4",
+          "type": "Rotational CORNER Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": [
+            "images/Rotational%20CORNER%20Drop%20green.gif"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "8",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_ELONGATED_lt27",
+      "source": "biggerthan165_ELONGATED_27kg.htm",
+      "girth": "gt165",
+      "shape": "ELONGATED",
+      "weightKey": "lt27",
+      "title": "Girth>165\"/ Carton: ELONGATED/FLAT / Gross Weight<27Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Corner 2-3-5",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "300mm (12 in.)",
+          "impact": "Edge 3-4",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Edge 2-3",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Corner 3-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Edge 4-5",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Corner 1-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Edge 1-6",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "810mm (32 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "13",
+          "type": "Full Rotational Test",
+          "height": "Place on : Face 5",
+          "impact": "Allow to fall to ground with this face as the base",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Full Rotational Test",
+          "height": "Place on : Face 2",
+          "impact": "Allow to fall to ground with this face as the base",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Floor Hazard Drop",
+          "height": "Impact : Face 1",
+          "impact": "Drop \" Hazard Box \" from 400 mm (16\") onto Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "16",
+          "type": "Bridge Hazard Drop",
+          "height": "Impact : Face 3",
+          "impact": "Rest on 2 supports. Drop \" Hazard Box\" from 400 mm (16\") onto Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_ELONGATED_27to45",
+      "source": "biggerthan165_ELONGATED_27-45kg.htm",
+      "girth": "gt165",
+      "shape": "ELONGATED",
+      "weightKey": "27to45",
+      "title": "Girth>165\"/ Carton: ELONGATED/FLAT / Gross Weight:27-45Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Corner 2-3-5",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "250mm (10 in.)",
+          "impact": "Edge 3-4",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Edge 2-3",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Corner 3-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Edge 4-5",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Corner 1-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "360mm (14 in.)",
+          "impact": "Edge 1-6",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "660mm (26 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "13",
+          "type": "Full Rotational Test",
+          "height": "Place on : Face 5",
+          "impact": "Allow to fall to ground with this face as the base",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Full Rotational Test",
+          "height": "Place on : Face 2",
+          "impact": "Allow to fall to ground with this face as the base",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Floor Hazard Drop",
+          "height": "Impact : Face 1",
+          "impact": "Drop \" Hazard Box \" from 400 mm (16\") onto Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "16",
+          "type": "Bridge Hazard Drop",
+          "height": "Impact : Face 3",
+          "impact": "Rest on 2 supports. Drop \" Hazard Box\" from 400 mm (16\") onto Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_ELONGATED_45to91",
+      "source": "biggerthan165_ELONGATED_45-91kg.htm",
+      "girth": "gt165",
+      "shape": "ELONGATED",
+      "weightKey": "45to91",
+      "title": "Girth>165\"/ Carton: ELONGATED/FLAT / Gross Weight: 45-91Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Face 2",
+          "images": []
+        },
+        {
+          "step": "3",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Face 6",
+          "images": []
+        },
+        {
+          "step": "4",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Corner 2-3-5",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Drop",
+          "height": "200mm (8 in.)",
+          "impact": "Edge 3-4",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "7",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Edge 2-3",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "8",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Corner 3-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "9",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Edge 4-5",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "10",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Corner 1-4-6",
+          "images": [
+            "images/corner%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "11",
+          "type": "Drop",
+          "height": "280mm (11 in.)",
+          "impact": "Edge 1-6",
+          "images": [
+            "images/edge%20drop.png"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Drop",
+          "height": "510mm (20 in.)",
+          "impact": "Face 3",
+          "images": [
+            "images/face%20drop%20green.png"
+          ]
+        },
+        {
+          "step": "13",
+          "type": "Full Rotational Test",
+          "height": "Place on : Face 5",
+          "impact": "Allow to fall to ground with this face as the base",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Full Rotational Test",
+          "height": "Place on : Face 2",
+          "impact": "Allow to fall to ground with this face as the base",
+          "images": []
+        },
+        {
+          "step": "15",
+          "type": "Floor Hazard Drop",
+          "height": "Impact : Face 1",
+          "impact": "Drop \" Hazard Box \" from 400 mm (16\") onto Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "16",
+          "type": "Bridge Hazard Drop",
+          "height": "Impact : Face 3",
+          "impact": "Rest on 2 supports. Drop \" Hazard Box\" from 400 mm (16\") onto Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    },
+    {
+      "id": "gt165_ELONGATED_gt91",
+      "source": "biggerthan165_ELONGATED_91kg-plus.htm",
+      "girth": "gt165",
+      "shape": "ELONGATED",
+      "weightKey": "gt91",
+      "title": "Girth>165\"/ Carton: ELONGATED/FLAT / Gross Weight:>91Kg",
+      "rows": [
+        {
+          "step": "1",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/Rotational%20EDGE%20Drop%20wider.gif"
+          ]
+        },
+        {
+          "step": "2",
+          "type": "Rotational CORNER Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 1",
+          "images": [
+            "images/Rotational%20CORNER%20Drop%20green.gif"
+          ]
+        },
+        {
+          "step": "3",
+          "type": "Rotational EDGE Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": [
+            "images/Rotational%20EDGE%20Drop%20wider.gif"
+          ]
+        },
+        {
+          "step": "4",
+          "type": "Rotational CORNER Drop",
+          "height": "(230mm / 9 in.)",
+          "impact": "Face 4",
+          "images": [
+            "images/Rotational%20CORNER%20Drop%20green.gif"
+          ]
+        },
+        {
+          "step": "5",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": [
+            "images/face%20drop.png"
+          ]
+        },
+        {
+          "step": "6",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "7",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "8",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "9",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "10",
+          "type": "Impact Test",
+          "height": "100mm (4 in.)",
+          "impact": "--",
+          "images": []
+        },
+        {
+          "step": "11",
+          "type": "Full Rotational Test",
+          "height": "",
+          "impact": "Place on : Face 5",
+          "images": [
+            "images/Full%20Rotational%20Test.gif"
+          ]
+        },
+        {
+          "step": "12",
+          "type": "Full Rotational Test",
+          "height": "",
+          "impact": "Place on : Face 2",
+          "images": []
+        },
+        {
+          "step": "13",
+          "type": "Floor Hazard Drop",
+          "height": "",
+          "impact": "Impact : Face 1",
+          "images": [
+            "images/Floor%20hazard%20drop.jpg"
+          ]
+        },
+        {
+          "step": "14",
+          "type": "Bridge Hazard Drop",
+          "height": "",
+          "impact": "Impact : Face 3",
+          "images": [
+            "images/Bridge%20hazard%20drop%20white.gif"
+          ]
+        }
+      ],
+      "notes": []
+    }
+  ],
+  "usedImages": [
+    "images/Bridge%20hazard%20drop%20white.gif",
+    "images/Floor%20hazard%20drop.jpg",
+    "images/Full%20Rotational%20Test.gif",
+    "images/Full%20Rotational%20Test.png",
+    "images/Rotational%20CORNER%20Drop%20green.gif",
+    "images/Rotational%20EDGE%20Drop%20green.gif",
+    "images/Rotational%20EDGE%20Drop%20wider.gif",
+    "images/Rotational%20EDGE%20Drop.gif",
+    "images/Rotational%20FLAT%20Drop.png",
+    "images/corner%20drop%20green.png",
+    "images/edge%20drop.png",
+    "images/face%20drop%20green.png",
+    "images/face%20drop.png",
+    "images/hazard.png"
+  ]
+}

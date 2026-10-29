@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ISTA 跌落测试方案｜箱体跌落步骤查询工具</title>
+    <meta name="description" content="输入箱体长宽高与毛重，按箱体周长（165 英寸）、标准箱型或细长/扁平箱型、重量段，自动查询对应的 ISTA 跌落测试步骤表：步骤、类型、跌落高度、冲击部位。">
+    <link rel="canonical" href="https://ista-drop-test-cn.pages.dev/">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-head">
+        <div class="wrap head-inner">
+            <div>
+                <p class="brand">ISTA 跌落测试方案</p>
+                <p class="brand-sub">箱体跌落测试步骤查询</p>
+            </div>
+            <nav class="head-nav">
+                <a href="#calc">查询</a>
+                <a href="#rules">判定规则</a>
+            </nav>
+        </div>
+    </header>
+
+    <main class="wrap">
+        <section class="intro">
+            <h1>按箱体尺寸与毛重，查询跌落测试步骤</h1>
+            <p>输入箱体三边尺寸和毛重，工具会先算出箱体周长（Girth），再按周长、箱型与重量段匹配对应的跌落步骤表。所有步骤数据来自既有测试方案，未做任何改动。</p>
+        </section>
+
+        <section class="panel" id="calc">
+            <h2>1. 输入箱体信息</h2>
+            <form id="calc-form" novalidate>
+                <div class="field-row field-row--3">
+                    <label class="field">
+                        <span>长 <em>L</em></span>
+                        <input type="number" id="dim-l" name="l" min="0" step="0.1" inputmode="decimal" placeholder="例如 600" required>
+                    </label>
+                    <label class="field">
+                        <span>宽 <em>W</em></span>
+                        <input type="number" id="dim-w" name="w" min="0" step="0.1" inputmode="decimal" placeholder="例如 400" required>
+                    </label>
+                    <label class="field">
+                        <span>高 <em>H</em></span>
+                        <input type="number" id="dim-h" name="h" min="0" step="0.1" inputmode="decimal" placeholder="例如 300" required>
+                    </label>
+                </div>
+
+                <div class="field-row field-row--2">
+                    <label class="field">
+                        <span>尺寸单位</span>
+                        <select id="dim-unit">
+                            <option value="mm" selected>毫米 mm</option>
+                            <option value="cm">厘米 cm</option>
+                        </select>
+                    </label>
+                    <label class="field">
+                        <span>毛重 <em>Gross Weight</em></span>
+                        <input type="number" id="gross-weight" name="kg" min="0" step="0.1" inputmode="decimal" placeholder="例如 18.5" required>
+                        <small class="hint">单位：kg</small>
+                    </label>
+                </div>
+
+                <fieldset class="field-group">
+                    <legend>箱型 <em>Carton Type</em></legend>
+                    <div class="shape-options">
+                        <label class="shape-option">
+                            <input type="radio" name="shape" value="STANDARD" checked>
+                            <span class="shape-card">
+                                <img src="images/standard.png" alt="标准箱型示意">
+                                <strong>标准箱型</strong>
+                                <em>STANDARD</em>
+                                <small>三边比例接近常规纸箱</small>
+                            </span>
+                        </label>
+                        <label class="shape-option">
+                            <input type="radio" name="shape" value="ELONGATED">
+                            <span class="shape-card">
+                                <span class="shape-pair">
+                                    <img src="images/flat.png" alt="扁平箱型示意">
+                                    <img src="images/elongated.png" alt="细长箱型示意">
+                                </span>
+                                <strong>细长 / 扁平箱型</strong>
+                                <em>ELONGATED / FLAT</em>
+                                <small>某一维度明显过长或过扁</small>
+                            </span>
+                        </label>
+                    </div>
+                </fieldset>
+
+                <p class="error" id="form-error" role="alert" hidden></p>
+
+                <div class="actions">
+                    <button type="submit" class="btn-primary">查询跌落步骤</button>
+                    <button type="reset" class="btn-ghost">清空重填</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="panel" id="result" hidden aria-live="polite">
+            <h2>2. 判定结果</h2>
+
+            <div class="verdict" id="verdict"></div>
+
+            <div class="table-head">
+                <h3 id="table-title">跌落测试步骤</h3>
+                <button type="button" class="btn-ghost btn-print" id="print-btn">打印 / 导出 PDF</button>
+            </div>
+
+            <div class="table-wrap table-wrap--stack">
+                <table class="steps-table" id="steps-table">
+                    <thead>
+                        <tr>
+                            <th scope="col" class="col-step">步骤</th>
+                            <th scope="col" class="col-type">类型</th>
+                            <th scope="col" class="col-height">跌落高度 / 条件</th>
+                            <th scope="col" class="col-impact">冲击部位</th>
+                            <th scope="col" class="col-img">图示</th>
+                        </tr>
+                    </thead>
+                    <tbody id="steps-body"></tbody>
+                </table>
+            </div>
+
+            <p class="table-note" id="table-note"></p>
+        </section>
+
+        <section class="panel" id="rules">
+            <h2>判定规则与数据来源</h2>
+
+            <h3>周长与分档</h3>
+            <ul class="rule-list">
+                <li><strong>周长 Girth</strong> =（最短边 + 次短边）× 2 + 最长边；本工具按英寸比较，1 in = 25.4 mm。</li>
+                <li><strong>165 英寸这条线</strong>：周长<strong>正好等于 165 in 时，归入「周长大于 165 in」一侧</strong>，与原查询工具保持一致。</li>
+                <li><strong>重量段上限不含</strong>：例如 32 kg 归入 32–45 kg 段，45 kg 归入 45 kg 以上段；27 kg、91 kg 同一处理方式。</li>
+            </ul>
+
+            <h3>重量段</h3>
+            <div class="table-wrap">
+                <table class="rules-table">
+                    <thead>
+                        <tr><th scope="col">周长</th><th scope="col">重量段</th><th scope="col">包含范围</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><td>小于 165 in</td><td>&lt;32 kg</td><td>毛重 &lt; 32 kg</td></tr>
+                        <tr><td>小于 165 in</td><td>32–45 kg</td><td>32 kg ≤ 毛重 &lt; 45 kg</td></tr>
+                        <tr><td>小于 165 in</td><td>&gt;45 kg</td><td>毛重 ≥ 45 kg</td></tr>
+                        <tr><td>大于 165 in</td><td>&lt;27 kg</td><td>毛重 &lt; 27 kg</td></tr>
+                        <tr><td>大于 165 in</td><td>27–45 kg</td><td>27 kg ≤ 毛重 &lt; 45 kg</td></tr>
+                        <tr><td>大于 165 in</td><td>45–91 kg</td><td>45 kg ≤ 毛重 &lt; 91 kg</td></tr>
+                        <tr><td>大于 165 in</td><td>&gt;91 kg</td><td>毛重 ≥ 91 kg</td></tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <h3>术语对照</h3>
+            <p class="terms">棱 EDGE　角 CORNER　面 FACE　危险跌落 HAZARD　旋转跌落 Rotational　完整旋转测试 Full Rotational Test　冲击测试 Impact Test</p>
+
+            <h3>数据来源</h3>
+            <p>步骤表由原查询工具的 14 个结果页逐格抽取，未改动任何数值与文字；抽取结果与原始页面的逐格比对差异为 0。表格中英文原文保留在每行下方的小字中，便于与标准原文对照。</p>
+            <p class="muted">本工具只用于按箱体参数查询步骤，不构成测试报告或认证结论。</p>
+        </section>
+    </main>
+
+    <footer class="site-foot">
+        <div class="wrap">
+            <p>ISTA 跌落测试方案 · 箱体跌落步骤查询</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>

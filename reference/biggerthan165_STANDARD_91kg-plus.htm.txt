@@ -1,0 +1,111 @@
+<style type="text/css">
+<!--
+.style2 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+<p><a href="biggerthan165_STANDARD.htm">Back</a>
+<table width="1154" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="6" class="xl64 style2"><div align="center">Girth&gt;165&quot;/ Carton: STANDARD  / Gross Weight:45Kg-91Kg </div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="71" class="xl64 style2"><div align="center">Step#</div></td>
+    <td width="178" class="xl64 style2"><div align="center">Type </div></td>
+    <td width="196" class="xl64 style2"><div align="center">Height</div></td>
+    <td width="138" class="xl64 style2">Place down: </td>
+    <td width="252" class="xl64 style2"><div align="center">Impact Area</div></td>
+    <td width="317" class="xl64 style2"><div align="center">Diagram </div></td>
+  </tr>
+  <tr>
+    <td width="71" height="52" class="xl63 style2"><div align="center" class="style2">1 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Rotational EDGE Drop </div></td>
+    <td width="196" class="xl67 style2"><div align="center">(230mm / 9 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">Face 1 </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Place : Edge 3-5 <br>
+    Lift : Edge 3-6 </div></td>
+    <td width="317" class="xl65"><div align="center" class="style2">
+      <div align="center"><img src="images/Rotational%20EDGE%20Drop%20wider.gif" width="265" height="108"></div>
+    </div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="71" height="64" class="xl63 style2"><div align="center" class="style2">2 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Rotational CORNER Drop </div></td>
+    <td width="196" class="xl67 style2"><div align="center">(230mm / 9 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">Face 1 </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Place :Corner 2-3-6 <br>
+    Lift : Corner 3-4-5 </div></td>
+    <td width="317" class="xl65"><div align="center" class="style2">
+      <div align="center"><img src="images/Rotational%20CORNER%20Drop%20green.gif" width="287" height="128"></div>
+    </div></td>
+  </tr>
+  <tr>
+    <td width="71" height="58" class="xl63 style2"><div align="center" class="style2">3 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Rotational EDGE Drop </div></td>
+    <td width="196" class="xl67 style2"><div align="center">(230mm / 9 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">Face 4 </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Place : Edge 3-4 <br>
+    Lift : Edge 2-3 </div></td>
+    <td width="317" class="xl65"><div align="center" class="style2">
+      <div align="center"><img src="images/Rotational%20EDGE%20Drop%20wider.gif" width="283" height="106"></div>
+    </div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="71" class="xl63 style2"><div align="center" class="style2">4 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Rotational CORNER Drop </div></td>
+    <td width="196" class="xl67 style2"><div align="center">(230mm / 9 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">Face 4 </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Place :Corner 2-3-5 <br>
+    Lift : Corner 3-4-6 </div></td>
+    <td width="317" class="xl65"><div align="center" class="style2"><img src="images/Rotational%20CORNER%20Drop%20green.gif" width="287" height="128"></div></td>
+  </tr>
+  <tr>
+    <td width="71" class="xl63 style2"><div align="center" class="style2">5 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Impact Test </div></td>
+    <td width="196" class="xl67 style2"><div align="center">100mm <br>
+    (4 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">-- </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Face 2 </div></td>
+    <td width="317" rowspan="6" class="xl65"><div align="center" class="style2"><img src="images/face%20drop.png" width="164" height="199"></div></td>
+  </tr>
+  <tr>
+    <td width="71" class="xl63 style2"><div align="center" class="style2">6 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Impact Test </div></td>
+    <td width="196" class="xl67 style2"><div align="center">100mm <br>
+    (4 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">-- </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Face 2 </div></td>
+  </tr>
+  <tr>
+    <td width="71" class="xl63 style2"><div align="center" class="style2">7 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Impact Test </div></td>
+    <td width="196" class="xl67 style2"><div align="center">100mm <br>
+    (4 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">-- </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Face 2 </div></td>
+  </tr>
+  <tr>
+    <td width="71" height="60" class="xl63 style2"><div align="center" class="style2">8 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Impact Test </div></td>
+    <td width="196" class="xl67 style2"><div align="center">100mm <br>
+    (4 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">-- </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Face 4 </div></td>
+  </tr>
+  <tr>
+    <td width="71" class="xl63 style2"><div align="center" class="style2">9 </div></td>
+    <td width="178" class="xl66 style2"><div align="center">Impact Test </div></td>
+    <td width="196" class="xl67 style2"><div align="center">100mm <br>
+    (4 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">-- </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Face 4 </div></td>
+  </tr>
+  <tr>
+    <td width="71" height="46" class="xl64"><p align="center" class="style2">10</p>    </td>
+    <td width="178" class="xl66 style2"><div align="center">Impact Test </div></td>
+    <td width="196" class="xl67 style2"><div align="center">100mm <br>
+    (4 in.) </div></td>
+    <td width="138" class="xl65 style2"><div align="center">-- </div></td>
+    <td width="252" class="xl65 style2"><div align="center">Face 4 </div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>

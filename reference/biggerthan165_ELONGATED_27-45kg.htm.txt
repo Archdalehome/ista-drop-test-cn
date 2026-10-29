@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Girth>165" Carton Drop Test Procedures</title>
+    <style>
+        /* 基础样式 */
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+            margin-bottom: 30px;
+        }
+
+        .back-link {
+            display: block;
+            margin-bottom: 20px;
+            color: #007bff;
+            text-decoration: none;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        /* 表格样式 */
+        .procedure-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 30px;
+        }
+
+        .procedure-table th {
+            background-color: #CCCCCC;
+            padding: 12px;
+            text-align: center;
+            font-weight: bold;
+        }
+
+        .procedure-table td {
+            padding: 12px;
+            text-align: center;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .procedure-table tr:nth-child(even) {
+            background-color: #EDF5E0;
+        }
+
+        .procedure-table tr.active {
+            background-color: #FFEB3B !important;
+            font-weight: bold;
+        }
+
+        .step-number {
+            font-weight: bold;
+            font-size: 1.1em;
+        }
+
+        .diagram-cell {
+            vertical-align: middle;
+        }
+
+        .diagram-cell img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* 信息块样式 */
+        .info-block {
+            background-color: #FFDCA8;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+
+        .info-block strong {
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* 响应式设计 */
+        @media screen and (max-width: 768px) {
+            body {
+                padding: 10px;
+            }
+            
+            .container {
+                padding: 15px;
+            }
+            
+            .procedure-table, .procedure-table thead, .procedure-table tbody, .procedure-table th, .procedure-table td, .procedure-table tr {
+                display: block;
+            }
+            
+            .procedure-table thead tr {
+                position: absolute;
+                top: -9999px;
+                left: -9999px;
+            }
+            
+            .procedure-table tr {
+                border: 1px solid #ccc;
+                margin-bottom: 10px;
+                padding: 10px;
+                border-radius: 5px;
+            }
+            
+            .procedure-table tr.active {
+                border: 2px solid #FFEB3B;
+            }
+            
+            .procedure-table td {
+                border: none;
+                position: relative;
+                padding-left: 50%;
+                text-align: left;
+            }
+            
+            .procedure-table td:before {
+                content: attr(data-label);
+                position: absolute;
+                left: 10px;
+                width: 45%;
+                font-weight: bold;
+            }
+            
+            .diagram-cell {
+                text-align: center;
+            }
+        }
+        
+        @media screen and (max-width: 480px) {
+            .container {
+                padding: 10px;
+            }
+            
+            .procedure-table td {
+                padding: 8px;
+                font-size: 0.9em;
+            }
+            
+            .info-block {
+                padding: 15px;
+                font-size: 0.9em;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <a href="biggerthan165_ELONGATED.htm" class="back-link">Back</a>
+        
+        <h1>Girth&gt;165"/ Carton: ELONGATED/FLAT / Gross Weight:27-45Kg</h1>
+        
+        <table class="procedure-table" id="procedureTable">
+            <thead>
+                <tr>
+                    <th>Step#</th>
+                    <th>Type</th>
+                    <th>Height</th>
+                    <th>Impact Area</th>
+                    <th>Diagram</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr class="active">
+                    <td data-label="Step#" class="step-number">1</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">250mm <br>(10 in.)</td>
+                    <td data-label="Impact Area">Face 1</td>
+                    <td data-label="Diagram" class="diagram-cell" rowspan="3"><img src="images/face%20drop.png" alt="Face drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">2</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">250mm <br>(10 in.)</td>
+                    <td data-label="Impact Area">Face 2</td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">3</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">250mm <br>(10 in.)</td>
+                    <td data-label="Impact Area">Face 6</td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">4</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">250mm <br>(10 in.)</td>
+                    <td data-label="Impact Area">Corner 2-3-5</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/corner%20drop%20green.png" alt="Corner drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">5</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">250mm <br>(10 in.)</td>
+                    <td data-label="Impact Area">Edge 3-4</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/edge%20drop.png" alt="Edge drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">6</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">360mm <br>(14 in.)</td>
+                    <td data-label="Impact Area">Face 3</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/face%20drop%20green.png" alt="Face drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">7</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">360mm <br>(14 in.)</td>
+                    <td data-label="Impact Area">Edge 2-3</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/edge%20drop.png" alt="Edge drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">8</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">360mm <br>(14 in.)</td>
+                    <td data-label="Impact Area">Corner 3-4-6</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/corner%20drop%20green.png" alt="Corner drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">9</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">360mm <br>(14 in.)</td>
+                    <td data-label="Impact Area">Edge 4-5</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/edge%20drop.png" alt="Edge drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">10</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">360mm <br>(14 in.)</td>
+                    <td data-label="Impact Area">Corner 1-4-6</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/corner%20drop%20green.png" alt="Corner drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">11</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">360mm <br>(14 in.)</td>
+                    <td data-label="Impact Area">Edge 1-6</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/edge%20drop.png" alt="Edge drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">12</td>
+                    <td data-label="Type">Drop</td>
+                    <td data-label="Height">660mm <br>(26 in.)</td>
+                    <td data-label="Impact Area">Face 3</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/face%20drop%20green.png" alt="Face drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">13</td>
+                    <td data-label="Type">Full Rotational Test</td>
+                    <td data-label="Height">Place on : Face 5</td>
+                    <td data-label="Impact Area">Allow to fall to ground with this face as the base</td>
+                    <td data-label="Diagram" class="diagram-cell" rowspan="2"><img src="images/Full%20Rotational%20Test.gif" alt="Full rotational test diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">14</td>
+                    <td data-label="Type">Full Rotational Test</td>
+                    <td data-label="Height">Place on : Face 2</td>
+                    <td data-label="Impact Area">Allow to fall to ground with this face as the base</td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">15</td>
+                    <td data-label="Type">Floor Hazard Drop</td>
+                    <td data-label="Height">Impact : <br>Face 1</td>
+                    <td data-label="Impact Area">Drop " Hazard Box " from 400 mm (16") onto Face 1</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/Floor%20hazard%20drop.jpg" alt="Floor hazard drop diagram"></td>
+                </tr>
+                <tr>
+                    <td data-label="Step#" class="step-number">16</td>
+                    <td data-label="Type">Bridge Hazard Drop</td>
+                    <td data-label="Height">Impact : <br>Face 3</td>
+                    <td data-label="Impact Area">Rest on 2 supports. <br>Drop " Hazard Box" from 400 mm (16") onto Face 3</td>
+                    <td data-label="Diagram" class="diagram-cell"><img src="images/Bridge%20hazard%20drop%20white.gif" alt="Bridge hazard drop diagram"></td>
+                </tr>
+            </tbody>
+        </table>
+        
+        <div class="info-block">
+            <strong>1) Support block:</strong>
+            90 to 100 mm(3.5 to 4.0 in) in heightand width and at least200 mm (8 in) longerthan the shortest dimension of face 3.
+            <strong>2) Hazard Box:</strong>
+            300 x300 x300 mm (12x12 x12 in) densewooden box with a total weight of 4.1 kg (9 lb)The box shall have least one bottom edgecovered by angle iron. The box should be filled with a sand bag and voidfill to hold the bag in place.
+        </div>
+    </div>
+
+    <script>
+        // 获取所有步骤行
+        const rows = document.querySelectorAll('#procedureTable tbody tr');
+        let currentStep = 0;
+
+        // 为每个步骤行添加点击事件监听器
+        rows.forEach((row, index) => {
+            row.addEventListener('click', () => {
+                // 移除所有行的高亮状态
+                rows.forEach(r => r.classList.remove('active'));
+                
+                // 为当前点击的行添加高亮状态
+                row.classList.add('active');
+                
+                // 更新当前步骤
+                currentStep = index;
+            });
+        });
+
+        // 键盘导航支持
+        document.addEventListener('keydown', (e) => {
+            // 移除所有行的高亮状态
+            rows.forEach(r => r.classList.remove('active'));
+            
+            if (e.key === 'ArrowDown' && currentStep < rows.length - 1) {
+                // 向下箭头，移动到下一步
+                currentStep++;
+            } else if (e.key === 'ArrowUp' && currentStep > 0) {
+                // 向上箭头，移动到上一步
+                currentStep--;
+            }
+            
+            // 为当前步骤添加高亮状态
+            rows[currentStep].classList.add('active');
+            
+            // 确保高亮的步骤在视窗中可见
+            rows[currentStep].scrollIntoView({behavior: 'smooth', block: 'center'});
+        });
+    </script>
+</body>
+</html>

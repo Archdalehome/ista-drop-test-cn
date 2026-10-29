@@ -1,0 +1,61 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Drop Test</title>
+<script>
+  // 处理跳转逻辑
+  function handleSubmit() {
+    const radio = document.querySelector('input[name="RadioGroup1"]:checked');
+    if (radio) {
+      window.location.href = radio.value; // 直接跳转到选中的值对应的URL
+    } else {
+      alert("请选择一个选项"); // 提示用户必须选择
+    }
+  }
+</script>
+</head>
+
+<body>
+<p><a href="index.html">Back</a><br>
+</p>
+<p>Filter: Girth<165"</p>
+<p>&nbsp;</p>
+<p>Please pick the shape of the Carton：STANDARD or ELONGATED/FLAT?</p>
+<p>&nbsp;</p>
+
+<form>
+  <table width="705" height="101" border="0">
+    <tr>
+      <td width="335"><div align="center"><img src="images/standard.png" width="176" height="137">
+              <label> </label>
+        </div>
+          <p align="center">
+            <label>
+            <input type="radio" name="RadioGroup1" value="lessthan165_STANDARD.htm">
+        STANDARD</label>
+        </p></td>
+      <td width="354"><div align="center"><img src="images/flat.png" width="147" height="137"><img src="images/elongated.png" width="166" height="136">
+              <label> </label>
+        </div>
+          <p align="center">
+            <label>
+            <input type="radio" name="RadioGroup1" value="lessthan165_ELONGATED.htm">
+            <!-- 这是HTML注释行 -->
+        ELONGATED/FLAT</label>
+        </p></td>
+    </tr>
+  </table>
+  <p>
+    <label></label>
+    <br>
+      
+    <!-- 点击按钮时触发JavaScript函数 -->
+    <button type="button" onclick="handleSubmit()">Next</button>
+  </p>
+</form>
+
+<p>&nbsp;</p>
+</body>
+</html>

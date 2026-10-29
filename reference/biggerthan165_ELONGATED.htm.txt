@@ -1,0 +1,57 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Drop Test</title>
+<script>
+  // 处理跳转逻辑
+  function handleSubmit() {
+    const radio = document.querySelector('input[name="RadioGroup1"]:checked');
+    if (radio) {
+      window.location.href = radio.value; // 直接跳转到选中的值对应的URL
+    } else {
+      alert("请选择一个选项"); // 提示用户必须选择
+    }
+  }
+</script>
+</head>
+
+<body>
+<p><a href="biggerthan165.htm">Back<br>
+</a></p>
+<p>Filter: Grith&gt;165" &amp; ELONGATED/FLAT</p>
+<p>&nbsp;</p>
+<p>Please pick the weight?</p>
+<p>&nbsp;</p>
+
+<form>
+  <p>
+   <label>
+      <input type="radio" name="RadioGroup1" value="biggerthan165_ELONGATED_27kg.htm">    
+      &lt;27 Kg</label>
+    <br>
+    <label>
+      <input type="radio" name="RadioGroup1" value="biggerthan165_ELONGATED_27-45kg.htm">    
+      27&lt;45 Kg </label>
+    <br>
+    <label>
+      <input type="radio" name="RadioGroup1" value="biggerthan165_ELONGATED_45-91kg.htm"> 
+      <!-- 这是HTML注释行 -->
+      45&lt;91 Kg</label>
+    <br>
+	  <label>
+      <input type="radio" name="RadioGroup1" value="biggerthan165_ELONGATED_91kg-plus.htm"> 
+      <!-- 这是HTML注释行 -->
+      &gt;91 Kg</label>
+  </p>
+  <p><br>
+      
+    <!-- 点击按钮时触发JavaScript函数 -->
+    <button type="button" onclick="handleSubmit()">Next</button>
+  </p>
+</form>
+
+<p>&nbsp;</p>
+</body>
+</html>

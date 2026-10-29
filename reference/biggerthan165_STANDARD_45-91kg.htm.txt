@@ -1,0 +1,113 @@
+<style type="text/css">
+<!--
+.style2 {font-family: Arial, Helvetica, sans-serif}
+-->
+</style>
+<p><a href="biggerthan165_STANDARD.htm">Back</a>
+<table width="1005" cellpadding="0" cellspacing="0">
+  <tr>
+    <td colspan="5" class="xl64 style2"><div align="center">Girth&gt;165&quot;/ Carton: STANDARD  / Gross Weight:45Kg-91Kg </div></td>
+  </tr>
+  <tr bgcolor="#CCCCCC">
+    <td width="73" class="xl64 style2"><div align="center">Step#</div></td>
+    <td width="137" class="xl64 style2"><div align="center">Type </div></td>
+    <td width="208" class="xl64 style2"><div align="center">Height</div></td>
+    <td width="147" class="xl64 style2"><div align="center">Impact Area</div></td>
+    <td width="428" class="xl64 style2"><div align="center">Diagram </div></td>
+  </tr>
+  <tr>
+    <td width="73" height="52" class="xl63 style2"><div align="center" class="style2">1 </div></td>
+    <td width="137" class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">200mm <br>
+    (8 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 1 </div></td>
+    <td width="428" rowspan="3" class="xl65"><div align="center"><span class="style2"></span></div>      <div align="center"><span class="style2"><img src="images/face%20drop.png" width="143" height="176"></span></div>      <div align="center"><span class="style2"></span></div></td>
+  </tr>
+  <tr>
+    <td width="73" height="64" class="xl63 style2"><div align="center" class="style2">2 </div></td>
+    <td width="137" class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">200mm <br>
+    (8 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 2 </div></td>
+  </tr>
+  <tr>
+    <td width="73" height="58" class="xl63 style2"><div align="center" class="style2">3 </div></td>
+    <td width="137" class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">200mm <br>
+    (8 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 6 </div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" class="xl63 style2"><div align="center" class="style2">4 </div></td>
+    <td width="137" class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">200mm <br>
+    (8 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Corner 2-3-5 </div></td>
+    <td width="428" class="xl65"><div align="center"><span class="style2"><img src="images/corner%20drop%20green.png" width="153" height="185"></span></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center" class="style2">5 </div></td>
+    <td width="137" class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">200mm <br>
+    (8 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 3-4 </div></td>
+    <td class="xl65" width="428"><div align="center"><span class="style2"><img src="images/edge%20drop.png" width="143" height="171"></span></div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" class="xl63 style2"><div align="center" class="style2">6 </div></td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">280mm <br>
+    (11 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 3 </div></td>
+    <td width="428" class="xl65"><div align="center"><span class="style2"><img src="images/face%20drop%20green.png" width="147" height="177"></span></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center" class="style2">7 </div></td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">280mm <br>
+    (11 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 2-3 </div></td>
+    <td class="xl65" width="428"><div align="center"><span class="style2"><img src="images/edge%20drop.png" width="170" height="204"></span></div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" class="xl63 style2"><div align="center" class="style2">8 </div></td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">280mm <br>
+    (11 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Corner 3-4-6 </div></td>
+    <td width="428" class="xl66"><div align="center"><span class="style2"><img src="images/corner%20drop%20green.png" width="153" height="185"></span></div></td>
+  </tr>
+  <tr>
+    <td width="73" class="xl63 style2"><div align="center" class="style2">9 </div></td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">280mm <br>
+    (11 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 4-5 </div></td>
+    <td class="xl65" width="428"><div align="center"><span class="style2"><img src="images/edge%20drop.png" width="146" height="175"></span></div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" height="70" class="xl64"><p align="center" class="style2">10</p>    </td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">280mm <br>
+    (11 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Corner 1-4-6 </div></td>
+    <td width="428" class="xl63"><div align="center"><span class="style2"><img src="images/corner%20drop%20green.png" width="153" height="185"></span></div></td>
+  </tr>
+  <tr>
+    <td width="73" height="75" class="xl64 style2"><div align="center" class="style2">11</div></td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">280mm <br>
+    (11 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Edge 1-6 </div></td>
+    <td width="428" class="xl63 style2"><div align="center"><span class="style2"><img src="images/edge%20drop.png" width="153" height="183"></span></div></td>
+  </tr>
+  <tr bgcolor="#EDF5E0">
+    <td width="73" height="62" class="xl64 style2"><div align="center" class="style2">12</div></td>
+    <td class="xl64 style2"><div align="center" class="style2">Drop </div></td>
+    <td width="141" class="xl65 style2"><div align="center">510mm <br>
+    (20 in.) </div></td>
+    <td width="147" class="xl65 style2"><div align="center">Face 3 </div></td>
+    <td width="428" bgcolor="#EDF5E0" class="xl63 style2"><div align="center"><span class="style2"><img src="images/face%20drop%20green.png" width="147" height="177"></span></div></td>
+  </tr>
+</table>
+<p>&nbsp;</p>
